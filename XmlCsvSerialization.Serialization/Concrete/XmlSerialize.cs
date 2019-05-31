@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace Serialize.Concrete.Xml
+namespace XmlCsvSerialization.Serialization.Concrete
 {
     public class XmlSerial : ISerializer
     {

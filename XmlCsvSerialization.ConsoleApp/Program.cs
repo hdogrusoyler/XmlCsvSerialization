@@ -4,10 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
 using XmlCsvSerialization.Object;
-using Serialize;
 using XmlCsvSerialization.Serialization;
-using Serialize.Concrete.Csv;
-using Serialize.Concrete.Xml;
+using XmlCsvSerialization.Serialization.Concrete;
 
 namespace ConsoleApp
 {

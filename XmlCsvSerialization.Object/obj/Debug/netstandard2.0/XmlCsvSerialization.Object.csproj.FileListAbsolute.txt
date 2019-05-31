@@ -6,3 +6,4 @@ C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Object\obj
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Object\obj\Debug\netstandard2.0\XmlCsvSerialization.Object.AssemblyInfo.cs
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Object\obj\Debug\netstandard2.0\XmlCsvSerialization.Object.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Object\obj\Debug\netstandard2.0\XmlCsvSerialization.Object.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Object\obj\Debug\netstandard2.0\XmlCsvSerialization.Object.csprojAssemblyReference.cache

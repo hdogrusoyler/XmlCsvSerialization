@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Serialize.Concrete.Csv
+namespace XmlCsvSerialization.Serialization.Concrete
 {
     //CsvSeri<AddressInfo, AddressInfoCity>,
     public class CsvSerial : ISerializer
