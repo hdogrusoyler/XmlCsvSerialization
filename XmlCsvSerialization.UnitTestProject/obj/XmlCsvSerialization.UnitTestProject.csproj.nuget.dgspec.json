@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.UnitTestProject\\XmlCsvSerialization.UnitTestProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.ConsoleApp\\XmlCsvSerialization.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.ConsoleApp\\XmlCsvSerialization.ConsoleApp.csproj",
+        "projectName": "XmlCsvSerialization.ConsoleApp",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.ConsoleApp\\XmlCsvSerialization.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj",
+        "projectName": "XmlCsvSerialization.Object",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj",
+        "projectName": "XmlCsvSerialization.Serialization",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.UnitTestProject\\XmlCsvSerialization.UnitTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.UnitTestProject\\XmlCsvSerialization.UnitTestProject.csproj",
+        "projectName": "XmlCsvSerialization.UnitTestProject",
+        "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.UnitTestProject\\XmlCsvSerialization.UnitTestProject.csproj",
+        "packagesPath": "C:\\Users\\hus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.UnitTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.ConsoleApp\\XmlCsvSerialization.ConsoleApp.csproj": {
+                "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.ConsoleApp\\XmlCsvSerialization.ConsoleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

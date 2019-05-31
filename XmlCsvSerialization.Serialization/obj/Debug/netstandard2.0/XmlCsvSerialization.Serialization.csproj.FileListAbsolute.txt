@@ -1,0 +1,12 @@
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\bin\Debug\netstandard2.0\XmlCsvSerialization.Serialization.deps.json
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\bin\Debug\netstandard2.0\XmlCsvSerialization.Serialization.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\bin\Debug\netstandard2.0\XmlCsvSerialization.Serialization.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\bin\Debug\netstandard2.0\XmlCsvSerialization.Object.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\bin\Debug\netstandard2.0\XmlCsvSerialization.Object.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.csprojAssemblyReference.cache
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.csproj.CoreCompileInputs.cache
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.AssemblyInfoInputs.cache
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.AssemblyInfo.cs
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.csproj.CopyComplete
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.Serialization\obj\Debug\netstandard2.0\XmlCsvSerialization.Serialization.pdb

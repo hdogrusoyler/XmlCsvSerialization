@@ -1,0 +1,16 @@
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.deps.json
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.runtimeconfig.json
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.runtimeconfig.dev.json
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Object.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Serialization.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Serialization.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Object.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.AssemblyInfo.cs
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.csproj.CopyComplete
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.pdb
