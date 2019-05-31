@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace XmlCsvSerialization.Serialization.Concrete
 {
-    public class XmlSerial : ISerializer
+    public class XmlSerialize : ISerializer
     {
         public void Serialize(string filename, AddressInfo ai)
         {

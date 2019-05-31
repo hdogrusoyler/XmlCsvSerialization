@@ -9,8 +9,7 @@ using System.Text;
 
 namespace XmlCsvSerialization.Serialization.Concrete
 {
-    //CsvSeri<AddressInfo, AddressInfoCity>,
-    public class CsvSerial : ISerializer
+    public class CsvSerialize : ISerializer
     {
         public void Serialize(string filename, AddressInfo aic)
         {

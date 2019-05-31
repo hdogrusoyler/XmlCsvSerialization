@@ -15,8 +15,8 @@ namespace ConsoleApp
         private ISerializer serviceXml;
         public Program()
         {
-            serviceCsv = new CsvSerial();
-            serviceXml = new XmlSerial();
+            serviceCsv = new CsvSerialize();
+            serviceXml = new XmlSerialize();
         }
         static void Main(string[] args)
         {
