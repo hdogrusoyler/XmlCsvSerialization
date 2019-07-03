@@ -16,9 +16,9 @@ namespace UnitTestProject
         public void TestMethod1()
         {
             var _xmlSerialize = new Mock<ISerializer>();
-            _xmlSerialize.Setup(foo => foo.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
+            _xmlSerialize.Setup(f => f.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
             var _csvSerialize = new Mock<ISerializer>();
-            _csvSerialize.Setup(foo => foo.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
+            _csvSerialize.Setup(f => f.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
 
             try
             {
@@ -39,8 +39,8 @@ namespace UnitTestProject
         public void TestMethod2()
         {
             var _csvSerialize = new Mock<ISerializer>();
-            _csvSerialize.Setup(foo => foo.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
-            _csvSerialize.Setup(foo => foo.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
+            _csvSerialize.Setup(f => f.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
+            _csvSerialize.Setup(f => f.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
 
             try
             {
@@ -64,9 +64,9 @@ namespace UnitTestProject
         public void TestMethod3()
         {
             var _xmlSerialize = new Mock<ISerializer>();
-            _xmlSerialize.Setup(foo => foo.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
+            _xmlSerialize.Setup(f => f.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
             var _csvSerialize = new Mock<ISerializer>();
-            _csvSerialize.Setup(foo => foo.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
+            _csvSerialize.Setup(f => f.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
 
             try
             {
