@@ -1647,6 +1647,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "XmlCsvSerialization.Extension": "1.0.0",
           "XmlCsvSerialization.Serialization": "1.0.0"
         },
         "compile": {
@@ -1654,6 +1655,19 @@
         },
         "runtime": {
           "bin/placeholder/XmlCsvSerialization.ConsoleApp.dll": {}
+        }
+      },
+      "XmlCsvSerialization.Extension/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "XmlCsvSerialization.Object": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/XmlCsvSerialization.Extension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XmlCsvSerialization.Extension.dll": {}
         }
       },
       "XmlCsvSerialization.Object/1.0.0": {
@@ -5965,6 +5979,11 @@
       "type": "project",
       "path": "../XmlCsvSerialization.ConsoleApp/XmlCsvSerialization.ConsoleApp.csproj",
       "msbuildProject": "../XmlCsvSerialization.ConsoleApp/XmlCsvSerialization.ConsoleApp.csproj"
+    },
+    "XmlCsvSerialization.Extension/1.0.0": {
+      "type": "project",
+      "path": "../XmlCsvSerialization.Extension/XmlCsvSerialization.Extension.csproj",
+      "msbuildProject": "../XmlCsvSerialization.Extension/XmlCsvSerialization.Extension.csproj"
     },
     "XmlCsvSerialization.Object/1.0.0": {
       "type": "project",

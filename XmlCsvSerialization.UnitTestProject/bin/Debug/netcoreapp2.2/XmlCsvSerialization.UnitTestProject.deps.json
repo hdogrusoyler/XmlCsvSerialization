@@ -1040,10 +1040,19 @@
       },
       "XmlCsvSerialization.ConsoleApp/1.0.0": {
         "dependencies": {
+          "XmlCsvSerialization.Extension": "1.0.0",
           "XmlCsvSerialization.Serialization": "1.0.0"
         },
         "runtime": {
           "XmlCsvSerialization.ConsoleApp.dll": {}
+        }
+      },
+      "XmlCsvSerialization.Extension/1.0.0": {
+        "dependencies": {
+          "XmlCsvSerialization.Object": "1.0.0"
+        },
+        "runtime": {
+          "XmlCsvSerialization.Extension.dll": {}
         }
       },
       "XmlCsvSerialization.Object/1.0.0": {
@@ -1572,6 +1581,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "XmlCsvSerialization.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XmlCsvSerialization.Extension/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -7,9 +7,11 @@ C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestPr
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.UnitTestProject.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.UnitTestProject.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Extension.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Object.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Serialization.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Extension.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Object.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Serialization.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.UnitTestProject\obj\Debug\netcoreapp2.2\XmlCsvSerialization.UnitTestProject.csprojAssemblyReference.cache

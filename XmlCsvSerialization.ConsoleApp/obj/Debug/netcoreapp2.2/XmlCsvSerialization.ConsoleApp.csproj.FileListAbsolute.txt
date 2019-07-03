@@ -3,8 +3,10 @@ C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.runtimeconfig.dev.json
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.pdb
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Extension.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Object.dll
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Serialization.dll
+C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Extension.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Serialization.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\bin\Debug\netcoreapp2.2\XmlCsvSerialization.Object.pdb
 C:\Users\hus\source\repos\c\p\XmlCsvSerialization\XmlCsvSerialization.ConsoleApp\obj\Debug\netcoreapp2.2\XmlCsvSerialization.ConsoleApp.csprojAssemblyReference.cache

@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v2.2": {
       "XmlCsvSerialization.ConsoleApp/1.0.0": {
         "dependencies": {
+          "XmlCsvSerialization.Extension": "1.0.0",
           "XmlCsvSerialization.Serialization": "1.0.0"
         },
         "runtime": {
           "XmlCsvSerialization.ConsoleApp.dll": {}
+        }
+      },
+      "XmlCsvSerialization.Extension/1.0.0": {
+        "dependencies": {
+          "XmlCsvSerialization.Object": "1.0.0"
+        },
+        "runtime": {
+          "XmlCsvSerialization.Extension.dll": {}
         }
       },
       "XmlCsvSerialization.Object/1.0.0": {
@@ -31,6 +40,11 @@
   },
   "libraries": {
     "XmlCsvSerialization.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XmlCsvSerialization.Extension/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

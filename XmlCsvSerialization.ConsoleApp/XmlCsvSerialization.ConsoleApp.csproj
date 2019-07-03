@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\XmlCsvSerialization.Extension\XmlCsvSerialization.Extension.csproj" />
     <ProjectReference Include="..\XmlCsvSerialization.Serialization\XmlCsvSerialization.Serialization.csproj" />
   </ItemGroup>
 

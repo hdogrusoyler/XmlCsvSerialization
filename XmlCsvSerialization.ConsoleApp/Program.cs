@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
+using XmlCsvSerialization.Extension;
 using XmlCsvSerialization.Object;
 using XmlCsvSerialization.Serialization;
 using XmlCsvSerialization.Serialization.Concrete;
@@ -22,9 +23,38 @@ namespace ConsoleApp
         {
             Program p = new Program();
 
+            p.TestCaseExtension1();
+            p.TestCaseExtension2();
+
             p.TestCase1();
             p.TestCase2();
             p.TestCase3();
+        }
+
+        public void TestCaseExtension1()
+        {
+            System.Console.WriteLine("CsvDeSerialize");
+            var a = serviceCsv.DeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.csv");
+            System.Console.WriteLine("JsonSerialization Extension");
+            String aiSt = a.WriteJsonFromObject();
+            System.Console.WriteLine(aiSt);
+            System.Console.WriteLine("JsonDeSerialization Extension");
+            AddressInfo ai = aiSt.ReadJsonToObject();
+            foreach (AddressInfoCity city in ai.City)
+                Console.WriteLine(city.name);
+        }
+
+        public void TestCaseExtension2()
+        {
+            System.Console.WriteLine("XmlDeSerialize");
+            var a = serviceXml.DeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.xml");
+            System.Console.WriteLine("JsonSerialization Extension");
+            String aiSt = a.WriteJsonFromObject();
+            System.Console.WriteLine(aiSt);
+            System.Console.WriteLine("JsonDeSerialization Extension");
+            AddressInfo ai = aiSt.ReadJsonToObject();
+            foreach (AddressInfoCity city in ai.City)
+                Console.WriteLine(city.name);
         }
 
         public void TestCase1()

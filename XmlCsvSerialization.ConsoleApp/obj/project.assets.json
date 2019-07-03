@@ -208,6 +208,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "XmlCsvSerialization.Extension/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "XmlCsvSerialization.Object": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/XmlCsvSerialization.Extension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XmlCsvSerialization.Extension.dll": {}
+        }
+      },
       "XmlCsvSerialization.Object/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -703,6 +716,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "XmlCsvSerialization.Extension/1.0.0": {
+      "type": "project",
+      "path": "../XmlCsvSerialization.Extension/XmlCsvSerialization.Extension.csproj",
+      "msbuildProject": "../XmlCsvSerialization.Extension/XmlCsvSerialization.Extension.csproj"
+    },
     "XmlCsvSerialization.Object/1.0.0": {
       "type": "project",
       "path": "../XmlCsvSerialization.Object/XmlCsvSerialization.Object.csproj",
@@ -717,6 +735,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
+      "XmlCsvSerialization.Extension >= 1.0.0",
       "XmlCsvSerialization.Serialization >= 1.0.0"
     ]
   },
@@ -750,6 +769,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Extension\\XmlCsvSerialization.Extension.csproj": {
+              "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Extension\\XmlCsvSerialization.Extension.csproj"
+            },
             "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj": {
               "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj"
             }
