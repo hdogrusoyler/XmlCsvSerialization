@@ -10,12 +10,13 @@ namespace XmlCsvSerialization.Serialization.Concrete
 {
     public class XmlSerialize : ISerializer
     {
-        public void Serialize(string filename, AddressInfo ai)
+        public String Serialize(AddressInfo ai, string filename)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(AddressInfo));
             StreamWriter writer = new StreamWriter(filename);
             serializer.Serialize(writer, ai);
             writer.Close();
+            return "success";
         }
 
         public AddressInfo DeSerialize(string filename)

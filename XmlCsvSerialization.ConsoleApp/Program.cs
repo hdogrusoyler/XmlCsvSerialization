@@ -14,10 +14,13 @@ namespace ConsoleApp
     {
         private ISerializer serviceCsv;
         private ISerializer serviceXml;
+        private ISerializer serviceJson;
+
         public Program()
         {
             serviceCsv = new CsvSerialize();
             serviceXml = new XmlSerialize();
+            serviceJson = new JsonSerialize();
         }
         static void Main(string[] args)
         {
@@ -36,10 +39,10 @@ namespace ConsoleApp
             System.Console.WriteLine("CsvDeSerialize");
             var a = serviceCsv.DeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.csv");
             System.Console.WriteLine("JsonSerialization Extension");
-            String aiSt = a.WriteJsonFromObject();
+            String aiSt = a.WriteJsonFromObject(serviceJson);
             System.Console.WriteLine(aiSt);
             System.Console.WriteLine("JsonDeSerialization Extension");
-            AddressInfo ai = aiSt.ReadJsonToObject();
+            AddressInfo ai = aiSt.ReadJsonToObject(serviceJson);
             foreach (AddressInfoCity city in ai.City)
                 Console.WriteLine(city.name);
         }
@@ -49,10 +52,10 @@ namespace ConsoleApp
             System.Console.WriteLine("XmlDeSerialize");
             var a = serviceXml.DeSerialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\sample_data.xml");
             System.Console.WriteLine("JsonSerialization Extension");
-            String aiSt = a.WriteJsonFromObject();
+            String aiSt = a.WriteJsonFromObject(serviceJson);
             System.Console.WriteLine(aiSt);
             System.Console.WriteLine("JsonDeSerialization Extension");
-            AddressInfo ai = aiSt.ReadJsonToObject();
+            AddressInfo ai = aiSt.ReadJsonToObject(serviceJson);
             foreach (AddressInfoCity city in ai.City)
                 Console.WriteLine(city.name);
         }
@@ -63,7 +66,7 @@ namespace ConsoleApp
 
             a.City = a.City.Where(c => c.name == "Antalya").ToArray();
 
-            serviceXml.Serialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToXml.xml", a);
+            serviceXml.Serialize(a, "C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToXml.xml");
 
             Console.WriteLine("CsvToXml Done!");
         }
@@ -78,7 +81,7 @@ namespace ConsoleApp
                 aic.District.OrderBy(d => d.name);
             }
 
-            serviceCsv.Serialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToCsv.csv", a);
+            serviceCsv.Serialize(a, "C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToCsv.csv");
 
             Console.WriteLine("CsvToCsv Done!");
         }
@@ -96,7 +99,7 @@ namespace ConsoleApp
                 }
             }
 
-            serviceCsv.Serialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\XmlToCsv.csv", a);
+            serviceCsv.Serialize(a, "C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\XmlToCsv.csv");
 
             Console.WriteLine("XmlToCsv Done!");
         }

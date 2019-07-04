@@ -16,7 +16,7 @@ namespace UnitTestProject
         public void TestMethod1()
         {
             var _xmlSerialize = new Mock<ISerializer>();
-            _xmlSerialize.Setup(f => f.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
+            _xmlSerialize.Setup(f => f.Serialize(It.Ref<AddressInfo>.IsAny, It.IsAny<string>()));
             var _csvSerialize = new Mock<ISerializer>();
             _csvSerialize.Setup(f => f.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
 
@@ -26,7 +26,7 @@ namespace UnitTestProject
 
                 a.City = a.City.Where(c => c.name == "Antalya").ToArray();
 
-                _xmlSerialize.Object.Serialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToXml.xml", a);
+                _xmlSerialize.Object.Serialize(a, "C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToXml.xml");
             }
             catch (Exception e)
             {
@@ -40,7 +40,7 @@ namespace UnitTestProject
         {
             var _csvSerialize = new Mock<ISerializer>();
             _csvSerialize.Setup(f => f.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
-            _csvSerialize.Setup(f => f.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
+            _csvSerialize.Setup(f => f.Serialize(It.Ref<AddressInfo>.IsAny, It.IsAny<string>()));
 
             try
             {
@@ -52,7 +52,7 @@ namespace UnitTestProject
                     aic.District.OrderBy(d => d.name);
                 }
 
-                _csvSerialize.Object.Serialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToCsv.csv", a);
+                _csvSerialize.Object.Serialize(a, "C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\CsvToCsv.csv");
             }
             catch (Exception e)
             {
@@ -66,7 +66,7 @@ namespace UnitTestProject
             var _xmlSerialize = new Mock<ISerializer>();
             _xmlSerialize.Setup(f => f.DeSerialize(It.IsAny<string>())).Returns(It.Ref<AddressInfo>.IsAny);
             var _csvSerialize = new Mock<ISerializer>();
-            _csvSerialize.Setup(f => f.Serialize(It.IsAny<string>(), It.Ref<AddressInfo>.IsAny));
+            _csvSerialize.Setup(f => f.Serialize(It.Ref<AddressInfo>.IsAny, It.IsAny<string>()));
 
             try
             {
@@ -81,7 +81,7 @@ namespace UnitTestProject
                     }
                 }
 
-                _csvSerialize.Object.Serialize("C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\XmlToCsv.csv", a);
+                _csvSerialize.Object.Serialize(a, "C:\\Users\\hus\\source\\repos\\c\\p\\HW05\\XmlToCsv.csv");
             }
             catch (Exception e)
             {

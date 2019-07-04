@@ -212,7 +212,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "XmlCsvSerialization.Object": "1.0.0"
+          "XmlCsvSerialization.Serialization": "1.0.0"
         },
         "compile": {
           "bin/placeholder/XmlCsvSerialization.Extension.dll": {}

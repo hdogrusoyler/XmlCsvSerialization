@@ -17,7 +17,7 @@
       },
       "XmlCsvSerialization.Extension/1.0.0": {
         "dependencies": {
-          "XmlCsvSerialization.Object": "1.0.0"
+          "XmlCsvSerialization.Serialization": "1.0.0"
         },
         "runtime": {
           "XmlCsvSerialization.Extension.dll": {}

@@ -35,6 +35,19 @@
         "runtime": {
           "bin/placeholder/XmlCsvSerialization.Object.dll": {}
         }
+      },
+      "XmlCsvSerialization.Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "XmlCsvSerialization.Object": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/XmlCsvSerialization.Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XmlCsvSerialization.Serialization.dll": {}
+        }
       }
     }
   },
@@ -186,12 +199,17 @@
       "type": "project",
       "path": "../XmlCsvSerialization.Object/XmlCsvSerialization.Object.csproj",
       "msbuildProject": "../XmlCsvSerialization.Object/XmlCsvSerialization.Object.csproj"
+    },
+    "XmlCsvSerialization.Serialization/1.0.0": {
+      "type": "project",
+      "path": "../XmlCsvSerialization.Serialization/XmlCsvSerialization.Serialization.csproj",
+      "msbuildProject": "../XmlCsvSerialization.Serialization/XmlCsvSerialization.Serialization.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "XmlCsvSerialization.Object >= 1.0.0"
+      "XmlCsvSerialization.Serialization >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -224,8 +242,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj": {
-              "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Object\\XmlCsvSerialization.Object.csproj"
+            "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj": {
+              "projectPath": "C:\\Users\\hus\\source\\repos\\c\\p\\XmlCsvSerialization\\XmlCsvSerialization.Serialization\\XmlCsvSerialization.Serialization.csproj"
             }
           }
         }

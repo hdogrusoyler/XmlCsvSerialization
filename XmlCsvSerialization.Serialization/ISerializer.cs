@@ -7,7 +7,7 @@ namespace XmlCsvSerialization.Serialization
 {
     public interface ISerializer
     {
-        void Serialize(string filename, AddressInfo aic);
-        AddressInfo DeSerialize(string filename);
+        String Serialize(AddressInfo aic, string name);
+        AddressInfo DeSerialize(string name);
     }
 }

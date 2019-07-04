@@ -11,7 +11,7 @@ namespace XmlCsvSerialization.Serialization.Concrete
 {
     public class CsvSerialize : ISerializer
     {
-        public void Serialize(string filename, AddressInfo aic)
+        public String Serialize(AddressInfo aic, string filename)
         {
             List<String[]> list = new List<string[]>();
 
@@ -44,6 +44,7 @@ namespace XmlCsvSerialization.Serialization.Concrete
                     writer.WriteLine(a);
                 }
             }
+            return "success";
         }
 
         public AddressInfo DeSerialize(string filename)
